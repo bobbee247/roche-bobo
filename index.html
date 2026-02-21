@@ -598,77 +598,7 @@
   }
 
   .lead-form {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
     text-align: left;
-  }
-
-  .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-  }
-
-  .form-group {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form-group label {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.7rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--warm-gray);
-    margin-bottom: 8px;
-  }
-
-  .form-group input,
-  .form-group select {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.95rem;
-    padding: 14px 18px;
-    border: 1px solid var(--cream-dark);
-    background: var(--white);
-    color: var(--charcoal);
-    outline: none;
-    transition: border-color 0.3s;
-  }
-
-  .form-group input:focus,
-  .form-group select:focus {
-    border-color: var(--magenta);
-  }
-
-  .form-group input::placeholder { color: #c5bfb5; }
-
-  .form-submit {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    padding: 18px 40px;
-    background: var(--magenta);
-    color: var(--white);
-    border: none;
-    cursor: pointer;
-    transition: all 0.4s;
-    margin-top: 10px;
-  }
-
-  .form-submit:hover {
-    background: var(--magenta-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(217, 79, 142, 0.25);
-  }
-
-  .form-disclaimer {
-    font-size: 0.75rem;
-    color: #b5afa5;
-    text-align: center;
-    margin-top: 15px;
-    line-height: 1.6;
   }
 
   /* ============================================
@@ -994,39 +924,17 @@
       With an expected completion in 2029, the window for pre-construction pricing is highly time-sensitive. Request exclusive floorplans, VIP pricing, and pre-construction inventory access.
     </p>
     <div class="lead-form" data-animate>
-      <div class="form-row">
-        <div class="form-group">
-          <label>First Name</label>
-          <input type="text" placeholder="First name">
-        </div>
-        <div class="form-group">
-          <label>Last Name</label>
-          <input type="text" placeholder="Last name">
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Email</label>
-        <input type="email" placeholder="you@email.com">
-      </div>
-      <div class="form-group">
-        <label>Phone</label>
-        <input type="tel" placeholder="(555) 000-0000">
-      </div>
-      <div class="form-group">
-        <label>Interested In</label>
-        <select>
-          <option value="">Select residence type...</option>
-          <option value="studio">Studio</option>
-          <option value="1br">1-Bedroom</option>
-          <option value="2br">2-Bedroom</option>
-          <option value="3br">3-Bedroom</option>
-          <option value="ph">Penthouse</option>
-        </select>
-      </div>
-      <button class="form-submit" type="button" onclick="handleSubmit()">Request VIP Pricing &amp; Floorplans</button>
-      <p class="form-disclaimer">
-        By submitting, you agree to receive communications regarding Roche Bobois Residences. Your information is kept strictly confidential and will never be shared.
-      </p>
+      <iframe
+        id="JotFormIFrame-260516548739972"
+        title="Roche Bobois Residences - VIP Pricing Request"
+        src="https://form.jotform.com/260516548739972"
+        frameborder="0"
+        style="min-width:100%;max-width:100%;height:540px;border:none;"
+        scrolling="no"
+        allowfullscreen
+      ></iframe>
+      <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+      <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-260516548739972']", "https://form.jotform.com/")</script>
     </div>
   </div>
 </section>
@@ -1083,13 +991,6 @@
 
   animateElements.forEach(el => observer.observe(el));
 
-  // ========== FORM HANDLER ==========
-  function handleSubmit() {
-    const btn = document.querySelector('.form-submit');
-    btn.textContent = 'Request Received — We\'ll Be in Touch';
-    btn.style.background = '#2E2A24';
-    btn.style.pointerEvents = 'none';
-  }
 </script>
 
 </body>
