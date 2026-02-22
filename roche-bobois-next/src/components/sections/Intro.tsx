@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useEffect } from 'react';
-import Image from 'next/image';
 import { gsap, ScrollTrigger } from '@/lib/gsap-config';
 import ImageReveal from '@/components/ui/ImageReveal';
 import SectionReveal from '@/components/ui/SectionReveal';
@@ -39,12 +38,13 @@ export default function Intro() {
         {/* Left: Image */}
         <div ref={imageRef} className="relative">
           <ImageReveal>
-            <Image
-              src="https://clinicboom.co/wp-content/uploads/arty-version-roche.png"
-              alt="Roche Bobois Residences artistic rendering"
-              width={700}
-              height={500}
-              className="w-full h-auto contrast-[1.05]"
+            <video
+              src="https://clinicboom.co/wp-content/uploads/Roche-gif-into-800-x-600-px.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto"
             />
           </ImageReveal>
           <div className="absolute -top-5 -right-5 w-[120px] h-[120px] border border-magenta opacity-30 -z-10 max-md:hidden" />

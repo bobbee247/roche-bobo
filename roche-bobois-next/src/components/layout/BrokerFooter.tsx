@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function BrokerFooter() {
   return (
@@ -63,14 +64,12 @@ export default function BrokerFooter() {
           <p className="text-[0.78rem] leading-snug text-white/70 mb-5">
             This website is not the official site of the developer of Roche Bobois Residences. &copy;
             HomeScene Property Partners International LLC. All rights reserved. &nbsp;
-            <a
-              href="https://rocheboboisresidences.com/privacy-policy"
-              target="_blank"
-              rel="noopener"
+            <Link
+              href="/privacy-policy"
               className="text-white/70 underline underline-offset-2 hover:text-white/90"
             >
               Privacy Policy Here
-            </a>
+            </Link>
           </p>
           <p className="text-[0.78rem] leading-snug text-white/70 mb-5 italic">
             ORAL REPRESENTATIONS CANNOT BE RELIED UPON AS CORRECTLY STATING REPRESENTATIONS OF THE
