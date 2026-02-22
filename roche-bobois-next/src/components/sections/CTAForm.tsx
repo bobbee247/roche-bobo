@@ -27,8 +27,16 @@ export default function CTAForm() {
     setSending(false);
     setSubmitted(true);
 
-    // Fire Google conversion event (sent to both Ads + GA4 tags)
+    // Fire Google Ads conversion + GA4 event
     if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      // Google Ads conversion (Maximize Conversions bidding optimization)
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-11360709244/mrPMCNGukf0bEPzUmqkq',
+        value: 1.0,
+        currency: 'USD',
+      });
+
+      // GA4 generate_lead key event
       window.gtag('event', 'generate_lead', {
         event_category: 'Lead',
         event_label: 'Contact Form Submission',
