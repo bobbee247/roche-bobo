@@ -9,11 +9,11 @@ export default function BrokerFooter() {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr]">
           <div className="flex flex-col items-center justify-center p-[60px_40px] md:p-[60px_40px] text-center">
             <Image
-              src="https://clinicboom.co/wp-content/uploads/HomeScene-logo-2.png"
-              alt="HomeScene Property Partners"
-              width={220}
-              height={60}
-              className="max-w-[220px] h-auto mb-[35px]"
+              src="/images/Homescene-Serhant-white.png"
+              alt="Homescene | SERHANT."
+              width={1172}
+              height={566}
+              className="max-w-[240px] h-auto mb-[35px]"
             />
             <div className="font-dm-sans text-[0.75rem] tracking-[0.25em] uppercase text-white/60 mb-2">
               NEW BUILD LOCATION:
@@ -40,30 +40,42 @@ export default function BrokerFooter() {
         {/* Disclaimer */}
         <div className="p-[50px_60px] max-md:p-[30px_16px] border-t border-white/15">
           <p className="text-[0.78rem] leading-snug text-white/70 mb-5">
-            Disclaimer &ndash; HomeScene Property Partners International LLC (dba HomeScene Realty)
-            &nbsp;HomeScene Property Partners International LLC (&ldquo;HomeScene&rdquo;) is a licensed
-            real-estate brokerage and proudly adheres to all federal, state, and local Fair Housing and
-            Equal Opportunity regulations. HomeScene is not&mdash;and does not represent itself to
-            be&mdash;the developer, owner, or affiliate of Roche Bobois Residences or any other project
-            shown on this website, its related landing pages, social-media channels or other marketing
+            Disclaimer &ndash; Homescene | SERHANT. &nbsp;Homescene | SERHANT. is a team of licensed
+            real estate agents affiliated with SERHANT FLORIDA LLC d/b/a SERHANT.
+            (&ldquo;SERHANT.&rdquo;), a licensed Florida real estate brokerage. Homescene | SERHANT.
+            is not&mdash;and does not represent itself to be&mdash;the developer, owner, lender,
+            investment advisor, or affiliate of Roche Bobois Residences or any other project shown on
+            this website, its related landing pages, social-media channels, or other marketing
             collateral. All content relating to Roche Bobois Residences is provided for informational
             purposes only. While the data has been gathered from sources believed to be reliable, it is
             subject to errors, omissions, and may change in price, availability, condition, or withdrawal
             without prior notice. Renderings, floor plans, square footages, interior finishes, furnishings,
-            amenities and any other descriptions are approximate and should not be relied upon as exact
-            representations. HomeScene acts as a buyer- or tenant-representative and may present a variety
-            of properties or developments beyond the one featured here. All marketing materials displayed
-            in connection with Roche Bobois Residences have been supplied by the respective developer;
-            HomeScene assumes no responsibility for any inaccuracies or misstatements therein. Pricing,
-            incentives, inventory and other details may be updated or discontinued at any time. This
-            information is not intended to solicit listings already under signed brokerage agreements, nor
-            should anything herein be construed as legal, tax, accounting or other professional advice
-            outside the scope of real-estate brokerage services. Prospective purchasers should consult
-            their own advisors for such guidance.
+            amenities, and any other descriptions are approximate and should not be relied upon as exact
+            representations. Any financial figures, returns, or projections referenced are from developers
+            or third-party sources, are for informational purposes only, and are not guarantees. All
+            marketing materials displayed in connection with Roche Bobois Residences have been supplied by
+            the respective developer; Homescene | SERHANT. assumes no responsibility for any inaccuracies
+            or misstatements therein. Pricing, incentives, inventory, and other details may be updated or
+            discontinued at any time. Homescene | SERHANT. acts as a buyer- or tenant-representative and
+            may present a variety of properties or developments beyond the one featured here. This
+            information is not intended to solicit listings already under signed brokerage agreements.
+            Please consult your own legal, tax, or financial advisors before making decisions; nothing
+            herein should be construed as legal, tax, accounting, or other professional advice outside the
+            scope of real-estate brokerage services. All transactions are subject to applicable laws,
+            including federal, state, and local Fair Housing and Equal Opportunity regulations, which
+            prohibit discrimination based on race, color, national origin, religion, sex, familial status,
+            or disability.
+          </p>
+          <p className="text-[0.78rem] leading-snug text-white/70 mb-5">
+            Wire fraud is on the rise. Neither SERHANT. nor the Homescene | SERHANT. team will ever email
+            wire instructions. Verify all wiring requests by phone directly with your agent or the closing
+            agent before transferring funds. Electronic communication may not be secure or error-free;
+            SERHANT., its affiliates, and its agents are not liable for errors, delays, or damages arising
+            from unauthorized access or use.
           </p>
           <p className="text-[0.78rem] leading-snug text-white/70 mb-5">
             This website is not the official site of the developer of Roche Bobois Residences. &copy;
-            HomeScene Property Partners International LLC. All rights reserved. &nbsp;
+            Homescene | SERHANT. All rights reserved. &nbsp;
             <Link
               href="/privacy-policy"
               className="text-white/70 underline underline-offset-2 hover:text-white/90"

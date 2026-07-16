@@ -5,7 +5,7 @@ import Navbar from '@/components/layout/Navbar';
 export const metadata: Metadata = {
   title: 'Privacy Policy | Roche Bobois Residences St. Petersburg',
   description:
-    'Privacy Policy for the Roche Bobois Residences St. Petersburg promotional website operated by HomeScene Property Partners International LLC.',
+    'Privacy Policy for the Roche Bobois Residences St. Petersburg promotional website operated by Homescene | SERHANT.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="font-dm-sans text-warm-gray text-[0.85rem] tracking-[0.15em] uppercase">
-            Last Updated: February 17, 2026
+            Last Updated: July 1, 2026
           </p>
         </div>
       </section>
@@ -44,18 +44,18 @@ export default function PrivacyPolicyPage() {
             </h2>
             <p className="mb-5">
               This Privacy Policy applies to visitors of the Roche Bobois Residences St. Petersburg
-              promotional website operated by HomeScene Property Partners International LLC (dba
-              HomeScene Realty) (&ldquo;HomeScene&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or
-              &ldquo;our&rdquo;). HomeScene is a licensed real estate brokerage serving as a
-              buyer-representative for the Roche Bobois Residences development in St. Petersburg,
-              Florida.
+              promotional website operated by Homescene | SERHANT., a team of licensed real estate
+              agents affiliated with SERHANT FLORIDA LLC d/b/a SERHANT. (&ldquo;Homescene |
+              SERHANT.&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). Homescene |
+              SERHANT. serves as a buyer-representative for the Roche Bobois Residences development in
+              St. Petersburg, Florida.
             </p>
             <div className="border-l-[3px] border-magenta pl-6 py-3 my-6 bg-cream-dark/50 rounded-r">
               <p className="text-[0.9rem] text-warm-gray leading-relaxed">
                 <strong className="text-charcoal">Important Notice:</strong> This is not the official
                 website of the Roche Bobois Residences developer (Valor Capital Real Estate
-                Development). HomeScene acts as an independent real estate brokerage and
-                buyer-representative. This Privacy Policy describes how we collect, use, and protect
+                Development). Homescene | SERHANT. acts as a buyer-representative. This Privacy Policy
+                describes how we collect, use, and protect
                 your personal information when you interact with our promotional site for this
                 ultra-luxury condominium development.
               </p>
@@ -304,7 +304,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-none space-y-3 mb-5 pl-1">
               {[
                 { label: 'Financial Information Protection', desc: 'Any financial or purchase details are encrypted and stored securely' },
-                { label: 'Limited Access', desc: 'Only authorized HomeScene agents working on Roche Bobois Residences have access to your information' },
+                { label: 'Limited Access', desc: 'Only authorized Homescene | SERHANT. agents working on Roche Bobois Residences have access to your information' },
                 { label: 'Secure Communication', desc: 'All purchase discussions use secure email and phone systems' },
                 { label: 'Document Protection', desc: 'Any contracts or financial documents are transmitted through secure portals' },
               ].map((item, i) => (
@@ -439,7 +439,7 @@ export default function PrivacyPolicyPage() {
                   For Purchase Questions
                 </h3>
                 <p className="text-[0.9rem]">
-                  Contact your assigned HomeScene agent or our Roche Bobois Residences specialists
+                  Contact your assigned Homescene | SERHANT. agent or our Roche Bobois Residences specialists
                 </p>
               </div>
             </div>
@@ -449,7 +449,7 @@ export default function PrivacyPolicyPage() {
                 Mailing Address
               </h3>
               <p className="text-[0.9rem] leading-relaxed">
-                HomeScene Property Partners International LLC
+                Homescene | SERHANT.
                 <br />
                 600 Cleveland Street, Ste 312
                 <br />
@@ -489,7 +489,7 @@ export default function PrivacyPolicyPage() {
           <div className="border-t border-cream-dark pt-10">
             <p className="text-warm-gray text-[0.9rem] italic">
               This privacy policy is specific to Roche Bobois Residences St. Petersburg promotional
-              activities. For other HomeScene Realty services, please refer to our general privacy
+              activities. For other Homescene | SERHANT. services, please refer to our general privacy
               policy.
             </p>
           </div>
